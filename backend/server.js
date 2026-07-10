@@ -115,14 +115,6 @@ io.on('connection', (socket) => {
     }
   });
 
-  // Real-time messaging
-  socket.on('send-message', (data) => {
-    const recipientSocket = userSockets.get(data.recipientId);
-    if (recipientSocket) {
-      io.to(recipientSocket).emit('receive-message', data);
-    }
-  });
-
   // Disconnect
   socket.on('disconnect', () => {
     console.log('User disconnected:', socket.id);
