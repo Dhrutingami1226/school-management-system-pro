@@ -592,13 +592,6 @@ Contributions are welcome! Please follow these steps:
 3. Make your changes
 4. Submit a pull request
 
-## 📄 License
-
-This project is licensed under the MIT License.
-
-## 📞 Support
-
-For support, please create an issue or contact the development team.
 
 ## 🎯 Future Enhancements
 
@@ -613,7 +606,3 @@ For support, please create an issue or contact the development team.
 - AI chatbot for student queries
 - Performance prediction using ML
 - Audit logs
-
----
-
-**Built with ❤️ for better school management**
